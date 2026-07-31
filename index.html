@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
     
-    <!-- Sambungkan fail CSS anda -->
+    <!-- Sambungkan fail CSS -->
     <link rel="stylesheet" href="style.css" />
     
-    <!-- Link Boxicons (Ikon yang digunakan dalam tutorial video) -->
+    <!-- Link Boxicons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
 <body>
 
-    <!-- Sambungkan fail JS anda di bahagian bawah body -->
+    <!-- SEMUA ELEMEN NAVBAR KENA DUDUK DI DALAM TAG HEADER -->
+    <header class="header">
+        <a href="#home" class="logo">Nadhirah <span>Fasli</span></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>   
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Sambungkan fail JS -->
     <script src="script.js"></script>
 </body>
 </html>
